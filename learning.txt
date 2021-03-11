@@ -1,0 +1,19 @@
+import react {useSate}
+
+const [inputtext,setinputtext]=usestate('');
+
+every piece of state that you have data and react automatically updates to everything as long as you use in different places
+
+
+useEffect:
+it allows us to run a function basically whenever a piece of state changes
+
+method:
+arrow fucntion, [here we speciffy how many times or when];
+
+when we dont specify how many times then it only runs once
+
+UI and react updates based on state
+
+
+local storage and usestate concept needs to improve
